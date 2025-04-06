@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.contenedor{
+    background-color: white;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 80px;
+    margin: 100px;
+}
+.tarjeta{
+    width: 150px;
+    height: 200px;
+}
+.imagen img{
+    width: 100%;
+}
+
+.profesion {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: gray;
+    text-align: center;
+    margin-top: 5px;
+    padding-bottom: 500px;
+}
+
+.nombre{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
